@@ -1,6 +1,6 @@
 class CampersController < ApplicationController
 
-  def index
+def index
 render json: Camper.all
 end
 
